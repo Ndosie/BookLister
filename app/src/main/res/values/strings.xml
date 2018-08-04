@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book Lister</string>
+    
+    <!--Keyword edit text hint-->
+    <string name="keyword_hint">Keyword</string>
+
+    <!--Search Button text-->
+    <string name="button_text">Search</string>
+
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="no_books">No books for the requested topic.</string>
+</resources>
