@@ -6,7 +6,6 @@ import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -43,10 +42,10 @@ public class QueryUtils {
             Log.e(LOG_TAG, "Problem making the HTTP request.", e);
         }
 
-        // Extract relevant fields from the JSON response and create a list of {@link Earthquake}s
+        // Extract relevant fields from the JSON response and create a list of {@link Book}s
         List<Book> books = extractFeatureFromJson(jsonResponse);
 
-        // Return the list of {@link Earthquake}s
+        // Return the list of {@link Book}s
         return books;
     }
 
@@ -176,7 +175,7 @@ public class QueryUtils {
             Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
         }
 
-        // Return the list of earthquakes
+        // Return the list of books
         return books;
     }
 }

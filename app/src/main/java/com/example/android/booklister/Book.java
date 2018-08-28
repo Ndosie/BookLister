@@ -1,6 +1,5 @@
 package com.example.android.booklister;
 
-import java.lang.reflect.Array;
 
 public class Book {
 

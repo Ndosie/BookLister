@@ -6,10 +6,6 @@ import android.content.Context;
 import java.util.List;
 
 public class BookLoader extends AsyncTaskLoader<List<Book>> {
-
-    /** Tag for log messages */
-    private static final String LOG_TAG = BookLoader.class.getName();
-
     /** Query URL */
     private String mUrl;
 
